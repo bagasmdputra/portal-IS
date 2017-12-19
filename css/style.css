@@ -1,0 +1,41 @@
+body{
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: fixed;
+
+  margin-top: 250px;
+  font: 32px 'Inter UI';
+  font-style: bold;
+  color: #CCCCCC;
+}
+
+div.logo-box{
+  position: fixed;
+  top: 50px;
+  left: 50px;
+
+  font: 14px 'Inter UI';
+  color: #CCCCCC;
+}
+img.logo.img-fluid{
+  max-width: 300px;
+  margin-bottom: 30px;
+}
+
+img.menu{
+  max-width: 300px;
+}
+img.pattern1{
+  position: absolute;
+  top:10px;
+  right: 10px;
+  z-index: -1;
+}
+
+img.pattern2{
+  position: absolute;
+  bottom: 10px;
+  left:10px;
+  z-index: -1;
+}
